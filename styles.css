@@ -1,0 +1,74 @@
+body {
+    background-color: #ECF0F1;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #34495E;
+    text-align: center;
+    font-size: 55px;
+}
+h2 {
+    color: #34495E;
+    text-align: center;
+    border: 2px solid #2C3E50;
+    padding: 10px;
+    margin: 20px 200px;
+    border-radius: 7px;
+
+}
+p {
+    color: #34495E;
+    text-align: center;
+}
+.yt-button {
+    background-color: #16A085;  /* YouTube Red */
+    color: white;               /* White text */
+    border: none;               /* Remove default border */
+    padding: 12px 20px;         /* Padding inside button */
+    text-align: center;         /* Center text */
+    display: inline-flex;       /* Align items side by side */
+    align-items: center;        /* Vertically center the content */
+    font-size: 16px;            /* Text size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    border-radius: 5px;         /* Rounded corners */
+    text-decoration: none;      /* Remove underline */
+    gap: 16px;
+    transition: background-color 0.3s;  /* Smooth hover effect */
+}
+
+.yt-button:hover {
+    background-color: #C1351D;  /* Darker red on hover */
+}
+
+.yt-button .button-icon {
+    width: 20px;                /* Set the image width */
+    height: 20px;               /* Set the image height */
+    margin-right: 8px;          /* Space between image and text */
+}
+/* insta css */
+.ig-button {
+    background-color: #16A085;  /* Ig color */
+    color: white;               /* White text */
+    border: none;               /* Remove default border */
+    padding: 12px 20px;         /* Padding inside button */
+    text-align: center;         /* Center text */
+    display: inline-flex;       /* Align items side by side */
+    align-items: center;        /* Vertically center the content */
+    font-size: 16px;            /* Text size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    border-radius: 5px;         /* Rounded corners */
+    text-decoration: none;      /* Remove underline */
+    gap: 16px;
+    transition: background-color 0.3s;  /* Smooth hover effect */
+}
+
+.ig-button:hover {
+    background-color: #F1C40F;  /* Darker blue on hover */
+}
+
+.ig-button .button-icon {
+    width: 20px;                /* Set the image width */
+    height: 20px;               /* Set the image height */
+    margin-right: 8px;          /* Space between image and text */
+}
+
