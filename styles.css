@@ -1,3 +1,25 @@
+body {
+    background-color: #ECF0F1;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #34495E;
+    text-align: center;
+    font-size: 55px;
+}
+h2 {
+    color: #34495E;
+    text-align: center;
+    border: 2px solid #2C3E50;
+    padding: 10px;
+    margin: 20px 200px;
+    border-radius: 7px;
+}
+p {
+    color: #34495E;
+    text-align: center;
+}
+
 /* Button Container: Stack Vertically */
 .button-container {
     display: flex;
