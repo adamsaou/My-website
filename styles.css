@@ -1,31 +1,43 @@
 body {
     background-color: #ECF0F1;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+/* Header Styles */
 h1 {
     color: #34495E;
     text-align: center;
-    font-size: 55px;
+    font-size: 3.5rem; /* Responsive font size */
+    margin-top: 20px;
 }
+
 h2 {
     color: #34495E;
     text-align: center;
     border: 2px solid #2C3E50;
     padding: 10px;
-    margin: 20px 200px;
+    margin: 20px auto;  /* Center horizontally */
     border-radius: 7px;
+    max-width: 90%;     /* Responsive */
+    font-size: 1.8rem;
 }
+
+/* Paragraph Styling */
 p {
     color: #34495E;
     text-align: center;
+    padding: 0 20px;
 }
 
 /* Button Container: Stack Vertically */
 .button-container {
     display: flex;
-    flex-direction: column; /* Stack buttons vertically */
-    align-items: center;    /* Center buttons horizontally */
-    gap: 20px;              /* Space between buttons */
+    flex-direction: column; 
+    align-items: center;     
+    gap: 20px;              
+    padding: 20px;
 }
 
 /* Shared Button Styles */
@@ -33,20 +45,29 @@ p {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 40px 60px;
-    font-size: 50px;
+    padding: 20px 40px;       /* Adjusted padding */
+    font-size: 1.8rem;        /* Responsive font size */
     border: none;
     border-radius: 10px;
     text-decoration: none;
     color: white;
     cursor: pointer;
-    gap: 20px;
+    gap: 15px;               /* Gap between icon and text */
     transition: transform 0.3s ease, background-color 0.3s ease;
+    max-width: 90%;           /* Responsive */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
 }
 
 /* Hover Effect */
 .button:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05);  
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Shadow grows on hover */
+}
+
+/* Icon Styling */
+.button-icon {
+    width: 40px;   /* Consistent icon size */
+    height: 40px;
 }
 
 /* YouTube Button */
@@ -71,6 +92,19 @@ p {
 }
 .tw-button:hover {
     background-color: #0D8AE5;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .button {
+        padding: 15px 30px;
+        font-size: 1.5rem;
+    }
+
+    .button-icon {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 /* Button Icons */
