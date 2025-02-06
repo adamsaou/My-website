@@ -34,7 +34,7 @@ p {
 /* Button Container: Stack Vertically */
 .button-container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;     
     gap: 20px;              
     padding: 20px;
@@ -54,7 +54,8 @@ p {
     cursor: pointer;
     gap: 15px;               /* Gap between icon and text */
     transition: transform 0.3s ease, background-color 0.3s ease;
-    max-width: 90%;           /* Responsive */
+    width: 100%;              /* Full width to avoid overlap */
+    max-width: 400px;         /* Limit max width */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
 }
 
