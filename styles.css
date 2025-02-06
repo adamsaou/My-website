@@ -1,105 +1,58 @@
-/* Global Styles */
-body {
-    background-color: #ECF0F1;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-h1, h2, p {
-    color: #34495E;
-    text-align: center;
-    margin: 10px;
-}
-
-h1 {
-    font-size: 3rem; /* Scalable font size */
-}
-
-h2 {
-    border: 2px solid #2C3E50;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 10px;
-    font-size: 1.5rem;
-}
-
-/* Button Container for Better Layout */
+/* Button Container: Stack Vertically */
 .button-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;    /* Center buttons horizontally */
+    gap: 20px;              /* Space between buttons */
 }
 
-/* Universal Button Styles */
+/* Shared Button Styles */
 .button {
-    background-color: #16A085;
-    color: white;
-    border: none;
-    padding: 1.5rem 2.5rem;
     display: inline-flex;
     align-items: center;
-    font-size: 1.8rem;
-    cursor: pointer;
-    border-radius: 12px;
+    justify-content: center;
+    padding: 40px 60px;
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
     text-decoration: none;
-    gap: 15px;
-    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    cursor: pointer;
+    gap: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+/* Hover Effect */
 .button:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* YouTube Button */
+.yt-button {
+    background-color: #FF0000;
+}
+.yt-button:hover {
     background-color: #C1351D;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-.button .button-icon {
-    width: 50px;
-    height: 50px;
-}
-
-/* Instagram Button Specifics */
+/* Instagram Button */
 .ig-button {
-    background-color: #E1306C;
+    background-color: #C13584;
 }
-
 .ig-button:hover {
-    background-color: #C1351D;
+    background-color: #F1C40F;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 1.2rem;
-        margin: 10px;
-    }
-
-    .button {
-        padding: 1rem 1.5rem;
-        font-size: 1.4rem;
-    }
-
-    .button .button-icon {
-        width: 40px;
-        height: 40px;
-    }
+/* Twitter Button */
+.tw-button {
+    background-color: #1DA1F2;
+}
+.tw-button:hover {
+    background-color: #0D8AE5;
 }
 
-@media (max-width: 480px) {
-    .button {
-        flex-direction: column;
-        gap: 10px;
-    }
+/* Button Icons */
+.button-icon {
+    width: 60px;
+    height: 60px;
 }
