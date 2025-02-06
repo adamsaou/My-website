@@ -14,61 +14,62 @@ h2 {
     padding: 10px;
     margin: 20px 200px;
     border-radius: 7px;
-
 }
 p {
     color: #34495E;
     text-align: center;
 }
+
+/* YouTube Button */
 .yt-button {
-    background-color: #16A085;  /* YouTube Red */
-    color: white;               /* White text */
-    border: none;               /* Remove default border */
-    padding: 12px 20px;         /* Padding inside button */
-    text-align: center;         /* Center text */
-    display: inline-flex;       /* Align items side by side */
-    align-items: center;        /* Vertically center the content */
-    font-size: 16px;            /* Text size */
-    cursor: pointer;           /* Pointer cursor on hover */
-    border-radius: 5px;         /* Rounded corners */
-    text-decoration: none;      /* Remove underline */
-    gap: 16px;
-    transition: background-color 0.3s;  /* Smooth hover effect */
+    background-color: #16A085;
+    color: white;
+    border: none;
+    padding: 40px 60px;          /* Increased padding */
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    font-size: 50px;             /* Bigger text */
+    cursor: pointer;
+    border-radius: 10px;         /* Slightly rounder corners */
+    text-decoration: none;
+    gap: 20px;                   /* More gap between icon and text */
+    transition: background-color 0.3s;
 }
 
 .yt-button:hover {
-    background-color: #C1351D;  /* Darker red on hover */
+    background-color: #C1351D;
 }
 
 .yt-button .button-icon {
-    width: 20px;                /* Set the image width */
-    height: 20px;               /* Set the image height */
-    margin-right: 8px;          /* Space between image and text */
+    width: 60px;                 /* Bigger icon */
+    height: 60px;
+    margin-right: 20px;
 }
-/* insta css */
+
+/* Instagram Button */
 .ig-button {
-    background-color: #16A085;  /* Ig color */
-    color: white;               /* White text */
-    border: none;               /* Remove default border */
-    padding: 12px 20px;         /* Padding inside button */
-    text-align: center;         /* Center text */
-    display: inline-flex;       /* Align items side by side */
-    align-items: center;        /* Vertically center the content */
-    font-size: 16px;            /* Text size */
-    cursor: pointer;           /* Pointer cursor on hover */
-    border-radius: 5px;         /* Rounded corners */
-    text-decoration: none;      /* Remove underline */
-    gap: 16px;
-    transition: background-color 0.3s;  /* Smooth hover effect */
+    background-color: #16A085;
+    color: white;
+    border: none;
+    padding: 40px 60px;          /* Increased padding */
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    font-size: 50px;             /* Bigger text */
+    cursor: pointer;
+    border-radius: 10px;         /* Slightly rounder corners */
+    text-decoration: none;
+    gap: 20px;                   /* More gap between icon and text */
+    transition: background-color 0.3s;
 }
 
 .ig-button:hover {
-    background-color: #F1C40F;  /* Darker blue on hover */
+    background-color: #F1C40F;
 }
 
 .ig-button .button-icon {
-    width: 20px;                /* Set the image width */
-    height: 20px;               /* Set the image height */
-    margin-right: 8px;          /* Space between image and text */
+    width: 60px;                 /* Bigger icon */
+    height: 60px;
+    margin-right: 20px;
 }
-
